@@ -82,4 +82,5 @@ def predict(test_X_file_path):
 if __name__ == "__main__":
     test_X_file_path = sys.argv[1]
     predict(test_X_file_path)
+    # Uncomment to test on the training data
     # validate(test_X_file_path, actual_test_Y_file_path="train_Y_knn.csv") 
